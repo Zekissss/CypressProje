@@ -1,0 +1,23 @@
+{
+  "PageTitle": "Einstellungen",
+  "SuccesfullyUpdated": "Die Basisdaten der Firma wurden erfolgreich aktualisiert.",
+  "CategoryName": "aaaaaaaa",
+  "EditCategoryName": "AAAAAAA",
+  "UpdatedCategoryName": "Electronic",
+  "CategoryUpdated": "Kategorie wurde erfolgreich geändert.",
+  "CategoryDeleted": "Kategorie wurde erfolgreich gelöscht.",
+  "NewEmailAddress": "mosturk68@gmail.com",
+  "NewPassword": "ABCxyz123",
+  "EmailChangedControlMessage": "Bitte verifizieren Sie Ihre neue E-Mail",
+  "PasswordChangeMessage": "Passwort erfolgreich geändert.",
+  "EmailChangeMessage": "Der E-Mail-Link zum Zurücksetzen wurde erfolgreich gesendet. Bitte überprüfen Sie Ihre neu eingegebene E-Mail Adresse.",
+  "Vat": "19% - DE/RO/CY{Enter}",
+  "Unit": "Stück{Enter}",
+  "Currency": "€ - Euro{Enter}",
+  "SettingsUpdated": "Einstellungen wurde erfolgreich aktualisiert!",
+  "DigitalProductInfo": "Deneme",
+  "VariantName": "Color",
+  "Aspectname1": "Red{Enter}",
+  "Aspectname2": "White{Enter}"
+
+}

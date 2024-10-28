@@ -1,0 +1,31 @@
+{
+  "name": "salevali_cypress_project",
+  "version": "0.2.0",
+  "description": "Intern project for salevali",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smokeTest": "npx cypress run -e tags=\"@smoke\"",
+    "saleValeSmoke": "npx cypress run --env grep=@smoker",
+    "regressionTest": "npx cypress run -e tags=\"@regression\""
+  },
+  "author": "Team03",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "@faker-js/faker": "^8.4.1",
+    "cypress-dotenv": "^2.0.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "xpath_cypress": "^1.0.2"
+  },
+  "dependencies": {
+    "chai": "^5.1.0",
+    "cypress": "^10.11.0",
+    "cypress-grep": "^3.0.4",
+    "cypress-tags": "^1.2.2",
+    "pg": "^8.11.3"
+  }
+}

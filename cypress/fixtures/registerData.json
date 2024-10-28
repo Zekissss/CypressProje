@@ -1,0 +1,8 @@
+{
+  "firstName": "Theresia",
+  "lastName": "Petrik",
+  "Email": "menekse@gmail.com",
+  "Password": "fakePassword",
+  "FirstNameMessage": "Bitte geben Sie Ihren Vornamen ein.",
+  "lastNameMessage": "Bitte geben Sie Ihren Nachnamen ein."
+}

@@ -1,0 +1,20 @@
+{
+  "page1": "Import / Export",
+  "page2": "Exportieren",
+  "page3": "Importie",
+  "page4": "Importieren",
+  "page5": "Kunden",
+  "page6": "Katalog",
+  "page7": "Artikel",
+  "importType1": "Kundendaten Importieren",
+  "importType2": "Artikel Importieren",
+  "csvCustomer": "testcustomerfile.csv",
+  "csvProduct": "testpruductFile.csv",
+  "beforeImportButton": "Spalten auswählen",
+  "importButton": "Importieren",
+  "finishedButton": "Abschließen",
+  "saveButton": "Speichern",
+  "email": "jameskingg@gmail.com",
+  "toastMessage1": "1 Kunde(n) erfolgreich importiert.",
+  "toastMessage2": "1 Produkt(e) erfolgreich importiert."
+}

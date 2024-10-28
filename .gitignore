@@ -1,0 +1,55 @@
+# Node.js genel geçici dosyaları
+/node_modules
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.production
+
+# Cypress configuration and screenshots
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+/cypress/coverage
+
+# Cypress cache and debug logs
+.cypress_cache/
+cypress.log
+
+# Cypress'ın kendi klasörü
+/cypress/screenshots
+/cypress/videos
+
+# Cypress yapılandırma dosyası
+/cypress.env.json
+/cypress.config.js
+
+# Cypress yapılandırma dosyası olan cypress.json
+/cypress.json
+node_module
+
+# Cypress report dosyaları
+/cypress/reports
+
+# Output of 'npm pack'
+*.tgz
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS files
+.DS_Store
+
+# Other optional files/directories to ignore
+cypress.json
+package-lock.json
