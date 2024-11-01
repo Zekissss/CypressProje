@@ -9,7 +9,7 @@
     "saleValeSmoke": "npx cypress run --env grep=@smoker",
     "regressionTest": "npx cypress run -e tags=\"@regression\""
   },
-  "author": "Team03",
+  "author": "Zekiye",
   "license": "ISC",
   "devDependencies": {
     "@cypress/grep": "^4.1.0",
