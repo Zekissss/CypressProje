@@ -6,8 +6,8 @@ async function sendEmailReport() {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'your-email@gmail.com',       // Kendi e-posta adresiniz
-      pass: 'your-email-password'          // Uygulama şifreniz veya e-posta şifreniz
+      user: 'your-email@gmail.com',       
+      pass: 'your-email-password'          
     }
   });
 
@@ -20,24 +20,24 @@ async function sendEmailReport() {
     attachments: [
       {
         filename: 'mochawesome.html',
-        path: './cypress/reports/mochawesome.html' // Rapor dosyası
+        path: './cypress/reports/mochawesome.html' 
       },
       {
         filename: 'test-video.mp4',
-        path: './cypress/videos/test-video.mp4'    // Test video dosyası
+        path: './cypress/videos/test-video.mp4'    
       }
     ]
   };
 
-  // E-posta gönderim fonksiyonu
+  
   transporter.sendMail(mailOptions, function(error, info){
     if (error) {
-      console.log('Hata oluştu:', error);  // Hata varsa konsola yazdır
+      console.log('Hata oluştu:', error);  
     } else {
-      console.log('E-posta başarıyla gönderildi:', info.response); // Başarı mesajı
+      console.log('E-posta başarıyla gönderildi:', info.response); 
     }
   });
 }
 
-// Fonksiyonu çalıştır
+
 sendEmailReport();
