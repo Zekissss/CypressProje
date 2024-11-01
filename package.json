@@ -1,7 +1,7 @@
 {
-  "name": "salevali_cypress_project",
+  "name": "ihkprojekt",
   "version": "0.2.0",
-  "description": "Intern project for salevali",
+  "description": "cypress_projekt",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
